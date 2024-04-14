@@ -31,9 +31,9 @@ class Mahasiswa<T, U, V> {
 public class MahasiswaKu {
     public static void main(String[] args) {
         Mahasiswa<String, String, Integer> m = new Mahasiswa<>();
-        m.setNim("1102020");
-        m.setName("Ferdi");
-        m.setClas(21);
+        m.setNim("20220040239");
+        m.setName("Hisyam");
+        m.setClas(22);
 
         System.out.println(m.getNim());
         System.out.println(m.getName());
